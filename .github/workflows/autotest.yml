@@ -16,4 +16,6 @@ jobs:
     - name: build
       run: g++ openfile.cpp changecase.cpp -o changecase
     - name: test
-      run: ./tests.sh
+      run: |
+            chmod u+x tests.sh
+            ./tests.sh
