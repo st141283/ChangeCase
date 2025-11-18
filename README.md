@@ -1,5 +1,6 @@
-# Конвертер регистров 
+[![C/C++ CI](https://github.com/st141283/ChangeCase/actions/workflows/autotest.yml/badge.svg)](https://github.com/st141283/ChangeCase/actions/workflows/autotest.yml)
 
+# Конвертер регистров 
 Учебный проект.
 
 Конвертер регистров позволяет менять:
@@ -21,4 +22,5 @@ changecase -key source_file destinstion_filename
 - "-G" ВЕРХНИЙ - нижний, нижний - ВЕРХНИЙ
 - "-T" первая буква - ВЕРХНИЙ, другие буквы - нижний
 - "-R" выполняет случайное действие с регистрами
+
 
